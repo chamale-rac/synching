@@ -1,0 +1,210 @@
+CONFIGURATION
+NUM_THREADS: 5
+NUM_ITERATIONS: 10
+AVAILABLE_RESOURCES: 5
+OUTPUT_FILE: semaphore_log.txt
+
+FORMAT
+[HH:MM:SS:μμμμμμ] [Thread <Thread Id>] (<Iteration>) <Action>: <Description>
+
+LOG
+[43:37:444327] [Thread 1] (1) STARTED: iteration
+[43:37:444334] [Thread 1] (1) CONSUMED: a resource
+[43:37:444336] [Thread 1] (1) WORKING: during 289383μs
+[43:37:444386] [Thread 2] (1) STARTED: iteration
+[43:37:444389] [Thread 2] (1) CONSUMED: a resource
+[43:37:444390] [Thread 2] (1) WORKING: during 930886μs
+[43:37:444435] [Thread 3] (1) STARTED: iteration
+[43:37:444440] [Thread 3] (1) CONSUMED: a resource
+[43:37:444441] [Thread 3] (1) WORKING: during 692777μs
+[43:37:444524] [Thread 4] (1) STARTED: iteration
+[43:37:444527] [Thread 4] (1) CONSUMED: a resource
+[43:37:444528] [Thread 4] (1) WORKING: during 636915μs
+[43:37:444587] [Thread 4] (1) STARTED: iteration
+[43:37:444590] [Thread 4] (1) CONSUMED: a resource
+[43:37:444591] [Thread 4] (1) WORKING: during 747793μs
+[43:37:733851] [Thread 1] (1) RETURNED: a resource
+[43:37:733859] [Thread 1] (2) STARTED: iteration
+[43:37:733860] [Thread 1] (2) CONSUMED: a resource
+[43:37:733862] [Thread 1] (2) WORKING: during 238335μs
+[43:37:972342] [Thread 1] (2) RETURNED: a resource
+[43:37:972351] [Thread 1] (3) STARTED: iteration
+[43:37:972352] [Thread 1] (3) CONSUMED: a resource
+[43:37:972354] [Thread 1] (3) WORKING: during 885386μs
+[43:38:081603] [Thread 4] (1) RETURNED: a resource
+[43:38:081630] [Thread 4] (2) STARTED: iteration
+[43:38:081632] [Thread 4] (2) CONSUMED: a resource
+[43:38:081635] [Thread 4] (2) WORKING: during 760492μs
+[43:38:137371] [Thread 3] (1) RETURNED: a resource
+[43:38:137382] [Thread 3] (2) STARTED: iteration
+[43:38:137383] [Thread 3] (2) CONSUMED: a resource
+[43:38:137385] [Thread 3] (2) WORKING: during 516649μs
+[43:38:192576] [Thread 4] (1) RETURNED: a resource
+[43:38:192583] [Thread 4] (2) STARTED: iteration
+[43:38:192584] [Thread 4] (2) CONSUMED: a resource
+[43:38:192586] [Thread 4] (2) WORKING: during 641421μs
+[43:38:375407] [Thread 2] (1) RETURNED: a resource
+[43:38:375415] [Thread 2] (2) STARTED: iteration
+[43:38:375417] [Thread 2] (2) CONSUMED: a resource
+[43:38:375418] [Thread 2] (2) WORKING: during 202362μs
+[43:38:577989] [Thread 2] (2) RETURNED: a resource
+[43:38:578000] [Thread 2] (3) STARTED: iteration
+[43:38:578002] [Thread 2] (3) CONSUMED: a resource
+[43:38:578005] [Thread 2] (3) WORKING: during 490027μs
+[43:38:654248] [Thread 3] (2) RETURNED: a resource
+[43:38:654259] [Thread 3] (3) STARTED: iteration
+[43:38:654261] [Thread 3] (3) CONSUMED: a resource
+[43:38:654264] [Thread 3] (3) WORKING: during 368690μs
+[43:38:834179] [Thread 4] (2) RETURNED: a resource
+[43:38:834194] [Thread 4] (3) STARTED: iteration
+[43:38:834196] [Thread 4] (3) CONSUMED: a resource
+[43:38:834200] [Thread 4] (3) WORKING: during 520059μs
+[43:38:842370] [Thread 4] (2) RETURNED: a resource
+[43:38:842381] [Thread 4] (3) STARTED: iteration
+[43:38:842383] [Thread 4] (3) CONSUMED: a resource
+[43:38:842386] [Thread 4] (3) WORKING: during 897763μs
+[43:38:857926] [Thread 1] (3) RETURNED: a resource
+[43:38:857934] [Thread 1] (4) STARTED: iteration
+[43:38:857935] [Thread 1] (4) CONSUMED: a resource
+[43:38:857936] [Thread 1] (4) WORKING: during 513926μs
+[43:39:023125] [Thread 3] (3) RETURNED: a resource
+[43:39:023137] [Thread 3] (4) STARTED: iteration
+[43:39:023138] [Thread 3] (4) CONSUMED: a resource
+[43:39:023140] [Thread 3] (4) WORKING: during 180540μs
+[43:39:068208] [Thread 2] (3) RETURNED: a resource
+[43:39:068221] [Thread 2] (4) STARTED: iteration
+[43:39:068223] [Thread 2] (4) CONSUMED: a resource
+[43:39:068226] [Thread 2] (4) WORKING: during 383426μs
+[43:39:203846] [Thread 3] (4) RETURNED: a resource
+[43:39:203859] [Thread 3] (5) STARTED: iteration
+[43:39:203861] [Thread 3] (5) CONSUMED: a resource
+[43:39:203865] [Thread 3] (5) WORKING: during 89172μs
+[43:39:293236] [Thread 3] (5) RETURNED: a resource
+[43:39:293250] [Thread 3] (6) STARTED: iteration
+[43:39:293252] [Thread 3] (6) CONSUMED: a resource
+[43:39:293255] [Thread 3] (6) WORKING: during 455736μs
+[43:39:354470] [Thread 4] (3) RETURNED: a resource
+[43:39:355793] [Thread 4] (4) STARTED: iteration
+[43:39:355798] [Thread 4] (4) CONSUMED: a resource
+[43:39:355802] [Thread 4] (4) WORKING: during 5211μs
+[43:39:361131] [Thread 4] (4) RETURNED: a resource
+[43:39:361140] [Thread 4] (5) STARTED: iteration
+[43:39:361141] [Thread 4] (5) CONSUMED: a resource
+[43:39:361143] [Thread 4] (5) WORKING: during 595368μs
+[43:39:372085] [Thread 1] (4) RETURNED: a resource
+[43:39:372097] [Thread 1] (5) STARTED: iteration
+[43:39:372098] [Thread 1] (5) CONSUMED: a resource
+[43:39:372101] [Thread 1] (5) WORKING: during 702567μs
+[43:39:451815] [Thread 2] (4) RETURNED: a resource
+[43:39:451826] [Thread 2] (5) STARTED: iteration
+[43:39:451828] [Thread 2] (5) CONSUMED: a resource
+[43:39:451831] [Thread 2] (5) WORKING: during 956429μs
+[43:39:740274] [Thread 4] (3) RETURNED: a resource
+[43:39:740286] [Thread 4] (4) STARTED: iteration
+[43:39:740287] [Thread 4] (4) CONSUMED: a resource
+[43:39:740289] [Thread 4] (4) WORKING: during 465782μs
+[43:39:749140] [Thread 3] (6) RETURNED: a resource
+[43:39:749149] [Thread 3] (7) STARTED: iteration
+[43:39:749150] [Thread 3] (7) CONSUMED: a resource
+[43:39:749152] [Thread 3] (7) WORKING: during 21530μs
+[43:39:770837] [Thread 3] (7) RETURNED: a resource
+[43:39:770848] [Thread 3] (8) STARTED: iteration
+[43:39:770849] [Thread 3] (8) CONSUMED: a resource
+[43:39:770852] [Thread 3] (8) WORKING: during 722862μs
+[43:39:956634] [Thread 4] (5) RETURNED: a resource
+[43:39:956642] [Thread 4] (6) STARTED: iteration
+[43:39:956644] [Thread 4] (6) CONSUMED: a resource
+[43:39:956645] [Thread 4] (6) WORKING: during 665123μs
+[43:40:074892] [Thread 1] (5) RETURNED: a resource
+[43:40:074901] [Thread 1] (6) STARTED: iteration
+[43:40:074903] [Thread 1] (6) CONSUMED: a resource
+[43:40:074904] [Thread 1] (6) WORKING: during 174067μs
+[43:40:206225] [Thread 4] (4) RETURNED: a resource
+[43:40:206236] [Thread 4] (5) STARTED: iteration
+[43:40:206237] [Thread 4] (5) CONSUMED: a resource
+[43:40:206239] [Thread 4] (5) WORKING: during 703135μs
+[43:40:249153] [Thread 1] (6) RETURNED: a resource
+[43:40:249164] [Thread 1] (7) STARTED: iteration
+[43:40:249166] [Thread 1] (7) CONSUMED: a resource
+[43:40:249169] [Thread 1] (7) WORKING: during 513929μs
+[43:40:408412] [Thread 2] (5) RETURNED: a resource
+[43:40:408420] [Thread 2] (6) STARTED: iteration
+[43:40:408421] [Thread 2] (6) CONSUMED: a resource
+[43:40:408423] [Thread 2] (6) WORKING: during 979802μs
+[43:40:493908] [Thread 3] (8) RETURNED: a resource
+[43:40:493920] [Thread 3] (9) STARTED: iteration
+[43:40:493922] [Thread 3] (9) CONSUMED: a resource
+[43:40:493926] [Thread 3] (9) WORKING: during 634022μs
+[43:40:622196] [Thread 4] (6) RETURNED: a resource
+[43:40:622209] [Thread 4] (7) STARTED: iteration
+[43:40:622211] [Thread 4] (7) CONSUMED: a resource
+[43:40:622214] [Thread 4] (7) WORKING: during 723058μs
+[43:40:763230] [Thread 1] (7) RETURNED: a resource
+[43:40:763239] [Thread 1] (8) STARTED: iteration
+[43:40:763240] [Thread 1] (8) CONSUMED: a resource
+[43:40:763242] [Thread 1] (8) WORKING: during 133069μs
+[43:40:896490] [Thread 1] (8) RETURNED: a resource
+[43:40:896501] [Thread 1] (9) STARTED: iteration
+[43:40:896503] [Thread 1] (9) CONSUMED: a resource
+[43:40:896506] [Thread 1] (9) WORKING: during 898167μs
+[43:40:909518] [Thread 4] (5) RETURNED: a resource
+[43:40:909527] [Thread 4] (6) STARTED: iteration
+[43:40:909528] [Thread 4] (6) CONSUMED: a resource
+[43:40:909530] [Thread 4] (6) WORKING: during 961393μs
+[43:41:128077] [Thread 3] (9) RETURNED: a resource
+[43:41:128085] [Thread 3] (10) STARTED: iteration
+[43:41:128086] [Thread 3] (10) CONSUMED: a resource
+[43:41:128088] [Thread 3] (10) WORKING: during 18456μs
+[43:41:146716] [Thread 3] (10) RETURNED: a resource
+[43:41:345474] [Thread 4] (7) RETURNED: a resource
+[43:41:345482] [Thread 4] (8) STARTED: iteration
+[43:41:345483] [Thread 4] (8) CONSUMED: a resource
+[43:41:345485] [Thread 4] (8) WORKING: during 175011μs
+[43:41:388421] [Thread 2] (6) RETURNED: a resource
+[43:41:388430] [Thread 2] (7) STARTED: iteration
+[43:41:388431] [Thread 2] (7) CONSUMED: a resource
+[43:41:389472] [Thread 2] (7) WORKING: during 478042μs
+[43:41:520640] [Thread 4] (8) RETURNED: a resource
+[43:41:520650] [Thread 4] (9) STARTED: iteration
+[43:41:520652] [Thread 4] (9) CONSUMED: a resource
+[43:41:520654] [Thread 4] (9) WORKING: during 176229μs
+[43:41:697052] [Thread 4] (9) RETURNED: a resource
+[43:41:697063] [Thread 4] (10) STARTED: iteration
+[43:41:697064] [Thread 4] (10) CONSUMED: a resource
+[43:41:697066] [Thread 4] (10) WORKING: during 377373μs
+[43:41:794845] [Thread 1] (9) RETURNED: a resource
+[43:41:794853] [Thread 1] (10) STARTED: iteration
+[43:41:794854] [Thread 1] (10) CONSUMED: a resource
+[43:41:794856] [Thread 1] (10) WORKING: during 484421μs
+[43:41:867702] [Thread 2] (7) RETURNED: a resource
+[43:41:867713] [Thread 2] (8) STARTED: iteration
+[43:41:867715] [Thread 2] (8) CONSUMED: a resource
+[43:41:867718] [Thread 2] (8) WORKING: during 544919μs
+[43:41:871113] [Thread 4] (6) RETURNED: a resource
+[43:41:871125] [Thread 4] (7) STARTED: iteration
+[43:41:871128] [Thread 4] (7) CONSUMED: a resource
+[43:41:871131] [Thread 4] (7) WORKING: during 413784μs
+[43:42:074614] [Thread 4] (10) RETURNED: a resource
+[43:42:279434] [Thread 1] (10) RETURNED: a resource
+[43:42:285058] [Thread 4] (7) RETURNED: a resource
+[43:42:285068] [Thread 4] (8) STARTED: iteration
+[43:42:285069] [Thread 4] (8) CONSUMED: a resource
+[43:42:285071] [Thread 4] (8) WORKING: during 898537μs
+[43:42:412831] [Thread 2] (8) RETURNED: a resource
+[43:42:412842] [Thread 2] (9) STARTED: iteration
+[43:42:412844] [Thread 2] (9) CONSUMED: a resource
+[43:42:412847] [Thread 2] (9) WORKING: during 575198μs
+[43:42:988183] [Thread 2] (9) RETURNED: a resource
+[43:42:988193] [Thread 2] (10) STARTED: iteration
+[43:42:988195] [Thread 2] (10) CONSUMED: a resource
+[43:42:988197] [Thread 2] (10) WORKING: during 594324μs
+[43:43:183766] [Thread 4] (8) RETURNED: a resource
+[43:43:183774] [Thread 4] (9) STARTED: iteration
+[43:43:183775] [Thread 4] (9) CONSUMED: a resource
+[43:43:183777] [Thread 4] (9) WORKING: during 798315μs
+[43:43:582654] [Thread 2] (10) RETURNED: a resource
+[43:43:982282] [Thread 4] (9) RETURNED: a resource
+[43:43:982294] [Thread 4] (10) STARTED: iteration
+[43:43:982296] [Thread 4] (10) CONSUMED: a resource
+[43:43:982299] [Thread 4] (10) WORKING: during 664370μs
+[43:44:646850] [Thread 4] (10) RETURNED: a resource
