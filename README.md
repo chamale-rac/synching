@@ -59,4 +59,4 @@ The program will create a log file named `monitor_log.txt` in the same directory
 
 ## Team 🤓
 
-Samuel Chamalé and Jose Daniel Gómez
+Samuel Chamalé
