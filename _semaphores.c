@@ -86,6 +86,7 @@ int main(int argc, char *argv[])
   sem_init(&resource_semaphore, 0, available_resources);
 
   log_file = fopen(output_file, "w");
+
   if (log_file == NULL)
   {
     perror("Error opening log file");
@@ -93,7 +94,7 @@ int main(int argc, char *argv[])
   }
 
   // Write the configuration to the log file
-  fprintf(log_file, "CONFIGURATION\n");
+  fprintf(log_file, "CONFIGURATION (SEMAPHORES)\n");
   fprintf(log_file, "NUM_THREADS: %d\n", num_threads);
   fprintf(log_file, "NUM_ITERATIONS: %d\n", num_iterations);
   fprintf(log_file, "AVAILABLE_RESOURCES: %d\n", available_resources);
